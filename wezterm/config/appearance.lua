@@ -36,11 +36,10 @@ return {
    show_tab_index_in_tab_bar = false,
    switch_to_last_active_tab_when_closing_tab = true,
 
-  -- environment
-  set_environment_variables = {
-    PATH = '/Users/zhangshuo26/.relay:' ..  os.getenv('PATH')
-  },
-
+   -- environment
+   set_environment_variables = {
+      PATH = '/Users/zhangshuo26/.relay:' .. os.getenv('PATH'),
+   },
 
    -- window
    window_padding = {
@@ -59,4 +58,5 @@ return {
       saturation = 0.9,
       brightness = 0.65,
    },
+   audible_bell = 'Disabled',
 }
